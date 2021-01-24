@@ -9,9 +9,11 @@ local function sendGroupTag(player)
 	TriggerClientEvent(-1, "CEsendPlayerTags", yes)
 end
 
+local function onInit() end
 
 local function onVehicleSpawn(player, vehID,  data) sendGroupTag(player) end
 
+M.onInit = onInit
 M.onVehicleSpawn = onVehicleSpawn
 M.onVehicleEdited = onVehicleSpawn
 
