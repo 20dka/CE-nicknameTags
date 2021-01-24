@@ -22,3 +22,8 @@ nicknameTags = "nicknameTags"
 ```
 
 #### 3. Restart your server to apply changes.
+
+## Usage:
+
+This extension uses CE groups as its base, meaning you have to be in a group to show up ingame.
+To add yourself as owner simply type `setgroup [yourname] owner` in the RCON window
